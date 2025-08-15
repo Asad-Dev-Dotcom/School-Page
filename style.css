@@ -1,0 +1,1047 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1265px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  overflow: hidden;
+  position: relative;
+  height: 1025px;
+}
+.header-overlay {
+  height: 800px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 is 50% darkness */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.header-bg-img {
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ============================header content================ */
+
+.header-content {
+  position: relative;
+  margin: 0 auto;
+  width: 75%;
+  z-index: 2;
+}
+.navbar {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+}
+.nav-logo {
+  width: 20%;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.nav-icons {
+  width: 55%;
+}
+.nav-icons ul {
+  display: flex;
+}
+.nav-icons ul li {
+  list-style: none;
+}
+.nav-icons ul li a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin: 0 21px;
+  color: #ffffff;
+}
+.nav-btns {
+  width: 25%;
+}
+.login-btn {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 25px;
+}
+.join-btn {
+  width: 120px;
+  height: 45px;
+  border: 0 solid #ff6551;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background-color: #ff6551;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+/* =========================Header Center Content=============== */
+.center-content {
+  width: 52%;
+  margin: 100px auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.center-join-link a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: yellowgreen;
+  text-decoration: none;
+}
+.center-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  /* margin: 20px auto; */
+  color: #ffffff;
+}
+.center-text {
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  /* /* text-align: center; */
+  /* margin: 20px auto; */
+  color: #ffffff;
+}
+.center-join-btn {
+  width: 133px;
+  height: 52px;
+  border: 0 solid #ff6551;
+  border-radius: 5px;
+  padding: 15px 40px;
+  background-color: #ff6551;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  /* margin: 20px auto; */
+}
+/* =================================Header Center Cards Section================== */
+.header-center-cards {
+  display: flex;
+  gap: 30px;
+}
+.center-card1,
+.center-card2,
+.center-card3 {
+  width: 205px;
+  /* height: 300px; */
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.card-icon img {
+  height: 30px;
+  width: 30px;
+}
+.card-icon {
+  width: 60px;
+  height: 66px;
+  border-radius: 10px;
+  /* padding-top: 22px;
+padding-right: 19px;
+padding-bottom: 22px;
+padding-left: 19px; */
+  background-color: #b6d7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.card-title h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-bottom: 17px;
+}
+.after-title-line {
+  width: 50px;
+  height: 2px;
+  display: block;
+  background-color: #ff6551;
+  margin-bottom: 17px;
+}
+.card-text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 222px;
+}
+.center-card3 {
+  background-color: #ff6551;
+  color: #ffffff;
+}
+.center-card3 .card-title h3,
+.center-card3 .after-title-line {
+  color: #ffffff;
+}
+.center-card3 .after-title-line {
+  background-color: #ffffff;
+}
+/* ===============================Watch our Courses Section */
+.watch-our-courses {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  padding: 100px 0;
+}
+.left-course-section {
+  width: 50%;
+  padding: 70px;
+}
+.left-img-part {
+  width: 210px;
+  height: 210px;
+  border: 56.09px solid #cfe4e7;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.left-img-child {
+  width: 376px;
+  height: 440px;
+  position: relative;
+  top: -140px;
+  left: -70px;
+}
+.left-img-growth {
+  width: 95px;
+  height: 58px;
+  position: relative;
+  top: -400px;
+  left: -140px;
+}
+.left-img-analysis {
+  width: 139px;
+  height: 130px;
+  position: relative;
+  top: -432px;
+  left: 245px;
+}
+.left-img-score {
+  height: 106px;
+  width: 155px;
+  position: relative;
+  top: -400px;
+  left: -90px;
+}
+.left-img-child img,
+.left-img-growth img,
+.left-img-analysis img,
+.left-img-score img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-course-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding-left: 20px;
+}
+.courses-right-top-line {
+  width: 94px;
+  height: 7px;
+  background-color: #e74040;
+}
+.courses-right-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.courses-right-description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.courses-right-link a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.courses-right-link-img {
+  display: inline;
+  position: relative;
+  top: 5px;
+}
+
+/* ==============================Clients Matter Section */
+.client-matters-section {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  padding: 100px 0;
+}
+.client-matters-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.client-matters-top-line {
+  width: 94px;
+  height: 7px;
+  background-color: #e74040;
+}
+.client-matters-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.client-matters-description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 351px;
+  height: 60px;
+}
+.client-matters-link a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.client-matters-link-img {
+  display: inline;
+  position: relative;
+  top: 5px;
+}
+.client-matters-right {
+  width: 50%;
+}
+.client-matters-right-img {
+  width: 457.5px;
+  height: 350px;
+}
+.client-matters-right-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ======================Quality Education Section */
+
+.quality-education-section {
+  width: 75%;
+  margin: 0 auto;
+  gap: 105px;
+  padding: 105px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.quality-education-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.quality-education-top-course {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8d5cf6;
+}
+
+.quality-education-top-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.quality-education-top-desc {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 469px;
+}
+
+/* =================quality education bottom cards section */
+
+.quality-education-bottom-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.quality-education-bottom-card {
+  width: 220px;
+  height: 580px;
+}
+.quality-education-bottom-card-img {
+  width: 210px;
+  height: 300px;
+}
+.quality-education-bottom-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.quality-education-bottom-card-sale-icon {
+  width: 51px;
+  height: 24px;
+  border-radius: 3px;
+  background-color: #e74040;
+  box-shadow: 0px 2px 4px 0px #0000001a;
+  color: #ffffff;
+  position: relative;
+  top: -280px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.quality-education-bottom-card-three-icons {
+  width: 140px;
+  height: 40px;
+  position: relative;
+  top: -92px;
+  left: 35px;
+  gap: 10px;
+  display: flex;
+}
+.three-icons-heart,
+.three-icons-cart,
+.three-icons-view {
+  width: 37px;
+  height: 37px;
+  border-radius: 44.79px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-icons-heart img,
+.three-icons-cart img,
+.three-icons-view img {
+  width: 18px;
+  height: 18px;
+}
+
+.quality-education-bottom-card-below-img-section {
+  height: 302px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  top: -70px;
+}
+.card-books-rating {
+  display: flex;
+  justify-content: space-between;
+}
+.card-books-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.card-rating {
+  width: 50px;
+  height: 26px;
+  border-radius: 20px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #26335d;
+  display: flex;
+}
+.card-books-rate-img {
+  width: 16px;
+  height: 16px;
+}
+.card-books-rate {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.card-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.card-description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.card-sales {
+  display: flex;
+  gap: 10px;
+}
+.sales-img {
+  width: 16px;
+  height: 16px;
+}
+.card-sales-desc {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.card-pricing {
+  display: flex;
+  gap: 5px;
+}
+.card-old-price {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #bdbdbd;
+}
+.card-new-price {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #2435a1;
+}
+.card-btn {
+  width: 125px;
+  height: 42px;
+  border-radius: 37px;
+  padding-top: 7px;
+  padding-right: 18px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  /* gap: 10px; */
+  background-color: #ffffff;
+  border-width: 1px;
+  border: 1px solid #ff6551;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.card-btn img {
+  position: relative;
+  top: 5px;
+}
+/* =====================Popular Courses Section */
+
+.popular-courses-section {
+  width: 100%;
+  background-color: #26335d;
+}
+.popular-courses-inside-section {
+  width: 75%;
+  margin: 0 auto;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.popular-courses-top-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.popular-courses-top-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.popular-courses-top-desc {
+  width: 465px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+/* =======================================Popular Courses Cards Section */
+.popular-courses-cards {
+  display: flex;
+  gap: 30px;
+}
+.popular-card {
+  width: 22.8%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+.popular-card-heart-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  background-color: #ff6551;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular-card-heart-icon img {
+  width: 33px;
+  height: 33px;
+}
+.popular-card-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.popular-card-detail {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.popular-card-dollar-price {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.popular-card-price-p-month {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8ec2f2;
+}
+.popular-card-desc {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.popular-card-btn {
+  width: 218px;
+  height: 52px;
+  padding-top: 12px;
+  padding-right: 35px;
+  padding-bottom: 12x;
+  padding-left: 35px;
+  border-radius: 5px;
+  background-color: #ff6551;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  border: 0 solid #ff6551;
+}
+.popular-card-checks-part {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.popular-card-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.popular-card-check img {
+  width: 28px;
+  height: 28px;
+}
+.popular-card-check-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.hearticon-newicon{
+  display: flex;
+}
+.popular-card-new {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -85px;
+  right: -125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 52px;
+  background-color: #e77c40;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+/* =====================================Testimonail Section */
+.testimonial-section {
+  width: 100%;
+}
+.testimonail-inner-section {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+}
+.testimonial-top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.testimonial-top-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.testimonial-top-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.testimonail-cards-section {
+  display: flex;
+  gap: 30px;
+}
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 50%;
+}
+.testimonial-top-desc {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 430px;
+}
+
+.testimonial-card-img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.testimonial-card-desc {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+  width: 250px;
+}
+.testimonial-card-rating-stars {
+  display: flex;
+  gap: 3px;
+}
+.testimonial-card-rating-stars img {
+  height: 17px;
+  width: 17px;
+}
+.testimonial-card-name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.testimonial-card-designer {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+/* ==============================Newsletter Section */
+.newsletter-section {
+  width: 100%;
+}
+.newsletter-inner-section {
+  width: 75%;
+  margin: 0 auto;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.newsletter-top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  width: 430px;
+  margin: 0 auto;
+}
+.newsletter-top-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.newsletter-top-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.newsletter-top-desc {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  /* width: 430px; */
+}
+.newsletter-input-part {
+  margin: 0 auto;
+}
+.newsletter-input-form {
+  width: 688px;
+  display: flex;
+  margin: 0 auto;
+}
+.newsletter-email-input {
+  width: 571px;
+  height: 58px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  /* padding-top: 15px;*/
+  padding-left: 20px;
+}
+.newsletter-subscribe-btn {
+  width: 117px;
+  height: 58px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #ff6551;
+  border: 1px solid #e6e6e6;
+  font-family: Montserrat;
+font-weight: 400;
+font-size: 13px;
+line-height: 28px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #FFFFFF;
+
+}
+/* =====================Footer Section */
+.full-footer-section {
+  width: 100%;
+}
+.footer-top-part {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 36px;
+  padding: 80px 0;
+}
+.company-info-line,
+.legal-line,
+.features-line,
+.resourses-line,
+.getintotouch-line {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 17%;
+}
+.company-info-head {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer-links a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-decoration: none;
+}
+.footer-links-icon {
+  display: flex;
+  gap: 7px;
+}
+.footer-links-icon img {
+  width: 20px;
+  height: 20px;
+}
+.footer-bottom-part {
+  width: 100%;
+  background-color: #fafafa;
+}
+.footer-bottom-inner {
+  width: 75%;
+  padding: 25px 0;
+  margin: 0 auto;
+  display: flex;
+}
+.footer-bottom-part-desc {
+  width: 85%;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.footer-bottom-part-icons {
+  width: 10%;
+  display: flex;
+  gap: 20px;
+}
+.footer-bottom-part-icons{
+  height: 20px;
+  width: 20px;
+}
